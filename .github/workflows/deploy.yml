@@ -28,4 +28,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/cv_m_petrov   # Пример: dist/my-app
+          folder: dist/cv_m_petrov/browser   # Пример: dist/my-app
