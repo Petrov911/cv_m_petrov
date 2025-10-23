@@ -1,0 +1,75 @@
+.left-column {
+  float: left;
+  width: 45%;
+  padding-top: 20px;
+}
+
+.education,
+.work-experience,
+.skills,
+.certificates,
+.languages,
+.sports {
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #1a263e;
+}
+
+.education-item,
+.work-item {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.education-item p,
+.work-item p {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.skills p,
+.certificates p,
+.languages p,
+.sports p {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.company {
+    color: #4185cd;
+    border-bottom: 2px solid #ddd;
+}
+
+.role {
+    padding-left: 20px;
+}
+
+.work-item span {
+    padding-left: 40px;
+}
+
+a {
+    color: #35134c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    float: right;
+}
+
+.period {
+    color: #12a7d8;
+    font-size: small;
+    font-style: italic;
+}
