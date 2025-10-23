@@ -68,3 +68,10 @@ button:active {
     transform: translateY(-0.1em);
   }
 }
+
+@media (max-width: 768px) {
+  .contact-info{
+    flex-direction: column;
+
+  }
+ }
