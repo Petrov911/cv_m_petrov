@@ -1,0 +1,8 @@
+.component {
+   background: linear-gradient(90deg, #86afc0 15%, #5962bd 86%);
+  border-radius: 12px;
+}
+
+html{
+    background:linear-gradient(90deg, #4B0082 0%, #E6E6FA 63%);
+}
