@@ -1,0 +1,26 @@
+<dialog open class="component">
+<form
+  action="https://api.web3forms.com/submit"
+  method="POST"
+  class="contact-form  component"
+>
+  <!-- web3forms token & honeypot -->
+  <input type="hidden" name="access_key" value="c23ac27c-71a7-45ce-8f52-ab1b1ce06346">
+  <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off">
+
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text" required>
+
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" required></textarea>
+
+  <button type="submit" class="btn">Send</button>
+  <button type="button" class="btn" (click)="onCancel()">Close</button>
+
+  <p class="form-note success" aria-live="polite" hidden>Mail was send! Thanks</p>
+  <p class="form-note error" aria-live="polite" hidden>Somethings wrong. Please, try again later!</p>
+</form>
+</dialog>
