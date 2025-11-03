@@ -16,7 +16,7 @@
 h4 {
     margin: 0;
     font-size: 1.2em;
-    color: #1a263e;
+    color: #d8e1ef;
 }
 
 .education-item,
@@ -29,6 +29,13 @@ h4 {
 .work-item p {
     margin: 5px 0;
     padding-left: 20px;
+}
+
+.education-item a ,
+.text
+{
+            color: #d8e1ef;
+
 }
 
 .skills p,
@@ -69,7 +76,7 @@ a:hover {
 }
 
 .period {
-    color: #12a7d8;
+        color: #d8e1ef;
     font-size: small;
     font-style: italic;
 }
