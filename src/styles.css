@@ -9,6 +9,12 @@
 
 html {
     background: linear-gradient(90deg, #4B0082 45%, #E6E6FA 63%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 75%;
+    border: thick solid #9eb1c4;
 }
 
 .center {
