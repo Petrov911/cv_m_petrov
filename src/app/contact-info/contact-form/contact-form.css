@@ -1,17 +1,17 @@
-:root{
-  --bg: #0f1724;         /* optional dark background for site */
-  --card: #ffffff;       /* form background */
-  --muted: #6b7280;      /* muted text */
-  --accent: #2563eb;     /* main accent / button */
+:root {
+  --bg: #0f1724; /* optional dark background for site */
+  --card: #ffffff; /* form background */
+  --muted: #6b7280; /* muted text */
+  --accent: #2563eb; /* main accent / button */
   --accent-contrast: #fff;
   --radius: 12px;
-  --shadow: 0 6px 18px rgba(15,23,36,0.12);
+  --shadow: 0 6px 18px rgba(232, 233, 235, 0.877);
   --gap: 14px;
   --maxw: 720px;
 }
 
 /* Container */
-.contact-form{
+.contact-form {
   max-width: var(--maxw);
   margin: 28px auto;
   background: var(--card);
@@ -21,43 +21,45 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--gap);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial;
   color: #0b1220;
 }
 
 /* Labels & inputs */
-.contact-form label{
+.contact-form label {
   font-size: 0.95rem;
   margin-bottom: 6px;
   display: block;
-  color: #0b1220;
+  color: #d3d9e6;
   font-weight: 600;
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
-.contact-form textarea{
+.contact-form textarea {
   width: 100%;
   font-size: 0.96rem;
   border-radius: 10px;
   border: 1px solid #e6e8eb;
   background: linear-gradient(180deg, #ffffff, #e1cee9);
   outline: none;
-  transition: border-color .18s ease, box-shadow .18s ease, transform .06s ease;
-  box-shadow: inset 0 1px 0 rgba(16,24,40,0.02);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease,
+    transform 0.06s ease;
+  box-shadow: inset 0 1px 0 rgba(16, 24, 40, 0.02);
   resize: vertical;
 }
 
 /* Focus state */
 .contact-form input:focus,
-.contact-form textarea:focus{
-  border-color: rgba(37,99,235,0.95);
-  box-shadow: 0 6px 20px rgba(37,99,235,0.08);
+.contact-form textarea:focus {
+  border-color: rgba(37, 99, 235, 0.95);
+  box-shadow: 0 6px 20px rgba(231, 232, 235, 0.973);
   transform: translateY(-1px);
 }
 
 /* Placeholder */
-.contact-form ::placeholder{
+.contact-form ::placeholder {
   color: var(--muted);
   opacity: 0.9;
 }
@@ -72,21 +74,24 @@ button {
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
-  width:100%;
+  width: 100%;
 }
 
-
 /* Success / error notes */
-.form-note{
+.form-note {
   font-size: 0.95rem;
   margin-top: 6px;
   color: var(--muted);
 }
-.form-note.success{ color: #16a34a; } /* green */
-.form-note.error{ color: #dc2626; } /* red */
+.form-note.success {
+  color: #16a34a;
+} /* green */
+.form-note.error {
+  color: #dc2626;
+} /* red */
 
 /* Honeypot (visually hidden but accessible-respecting) */
-.honeypot{
+.honeypot {
   position: absolute !important;
   left: -9999px;
   width: 1px;
@@ -97,18 +102,18 @@ button {
 }
 
 /* Responsive: inputs side-by-side on wider screens */
-@media (min-width: 720px){
-  .contact-form{
+@media (min-width: 720px) {
+  .contact-form {
     grid-template-columns: 1fr 1fr;
     gap: 16px 18px;
     align-items: start;
   }
 
   /* Make message textarea span full width */
-  .contact-form textarea{
+  .contact-form textarea {
     grid-column: 1 / -1;
   }
-/* 
+  /* 
   Make submit button span only first column
   .contact-form .btn{
     grid-column: 1 / 2;
@@ -119,10 +124,10 @@ button {
 }
 
 /* Small accessibility tweak for reduced-motion users */
-@media (prefers-reduced-motion: reduce){
+@media (prefers-reduced-motion: reduce) {
   .contact-form input,
   .contact-form textarea,
-  .contact-form .btn{
+  .contact-form .btn {
     transition: none;
   }
 }

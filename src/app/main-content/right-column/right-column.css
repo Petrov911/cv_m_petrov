@@ -5,10 +5,42 @@
 }
 
 .skills img{
- width: 100%;
+ width: 10%;
 }
 
 
 .certificates a {
    padding-right:  10px;
 }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(80px, 150px));
+  row-gap: 5px; 
+  column-gap: 40px;
+}
+
+.skill-card {
+  display: flex;
+  padding: 2px; 
+  margin-bottom: 0; 
+  gap: 5px;
+}
+
+
+.icon-wrapper img{
+  width: 1em;
+}
+
+.skill-name, .group-title{
+  margin: 0;
+ text-wrap: nowrap;
+ 
+}
+.group-title {
+  border-bottom: double 5px #fff;
+  width: 90%;
+  padding-bottom: 2px;
+}
+
+
