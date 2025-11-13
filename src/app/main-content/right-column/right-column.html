@@ -8,23 +8,23 @@
 }
   </div> -->
 
-  <section class="skills-section ">
-  <h2 class="header-item component center shadow">Skills & Tools</h2>
+  <section class="skills-section">
+    <h3 class="header-item component center shadow">SKILLS & TOOLS</h3>
 
-  @for (group of skills; track group.title) {
+    @for (group of skills; track group.title) {
     <h3 class="group-title">{{ group.title }}</h3>
     <div class="skills-grid">
       @for (skill of group.items; track skill.name) {
-        <div class="skill-card">
-          <div class="icon-wrapper">
-            <img [src]="skill.icon" [alt]="skill.name" loading="lazy" />
-          </div>
-          <p class="skill-name">{{ skill.name }}</p>
+      <div class="skill-card">
+        <div class="icon-wrapper">
+          <img [src]="skill.icon" [alt]="skill.name" loading="lazy" />
         </div>
+        <p class="skill-name">{{ skill.name }}</p>
+      </div>
       }
     </div>
-  }
-</section>
+    }
+  </section>
 
   <div class="certificates">
     <h3 class="header-item component center shadow">CERTIFICATES</h3>

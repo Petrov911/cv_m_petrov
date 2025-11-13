@@ -26,7 +26,7 @@ export class RightColumn {
       ],
     },
     {
-       title: 'Database',
+      title: 'Database',
       items: [
         {
           name: 'Oracle',
@@ -38,8 +38,8 @@ export class RightColumn {
         },
       ],
     },
-     {
-       title: 'VCS',
+    {
+      title: 'VCS',
       items: [
         {
           name: 'Git',
@@ -48,20 +48,23 @@ export class RightColumn {
         {
           name: 'Github',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=github&theme=light',
-        },{
+        },
+        {
           name: 'Github Actions',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=githubactions&theme=light',
-        },{
+        },
+        {
           name: 'Gitlab',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=gitlab&theme=light',
-        },{
+        },
+        {
           name: 'Bitbucket',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=bitbucket&theme=light',
         },
       ],
     },
-     {
-       title: 'IDE',
+    {
+      title: 'IDE',
       items: [
         {
           name: 'Visual Studio Code',
@@ -70,11 +73,11 @@ export class RightColumn {
         {
           name: 'InteliJIdea',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=idea&theme=light',
-        }
+        },
       ],
     },
-     {
-       title: 'Utilities',
+    {
+      title: 'Utilities',
       items: [
         {
           name: 'Jira',
@@ -95,11 +98,11 @@ export class RightColumn {
         {
           name: 'Linux',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=linux&theme=light',
-        }
+        },
       ],
     },
-     {
-       title: 'Front-end',
+    {
+      title: 'Front-end',
       items: [
         {
           name: 'Html',
@@ -114,17 +117,17 @@ export class RightColumn {
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=tailwind&theme=light',
         },
         {
-          name: 'JS',
+          name: 'JavaScript',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=js&theme=light',
         },
         {
           name: 'Angular',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=angular&theme=light',
-        }
+        },
       ],
     },
-     {
-       title: 'Build & Package',
+    {
+      title: 'Build & Package',
       items: [
         {
           name: 'Maven',
@@ -141,68 +144,8 @@ export class RightColumn {
         {
           name: 'Docker',
           icon: 'https://go-skill-icons.vercel.app/api/icons?i=docker&theme=light',
-        }
+        },
       ],
-    }
+    },
   ];
 }
-
-
-/*
-
-
-Build & Package
-https://go-skill-icons.vercel.app/api/icons?i=maven&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=gradle&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=jenkins&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=docker&theme=light
-
-Back-end:
-https://go-skill-icons.vercel.app/api/icons?i=java&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=spring&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=typescript&theme=light
-
-
-Database:
-https://go-skill-icons.vercel.app/api/icons?i=oracle&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=mysql&theme=light
-
-
-VCS:
-https://go-skill-icons.vercel.app/api/icons?i=git&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=github&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=githubactions&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=gitlab&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=bitbucket&theme=light
-
-
-IDE:
-https://go-skill-icons.vercel.app/api/icons?i=vscode&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=idea&theme=light
-
-
-Tools&Utilities:
-https://go-skill-icons.vercel.app/api/icons?i=jira&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=postman&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=sonarqube&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=chatgpt&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=bash&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=linux&theme=light
-
-
-Front-end:
-https://go-skill-icons.vercel.app/api/icons?i=html&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=css&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=tailwind&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=js&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=angular&theme=light
-
-
-Build & Package
-https://go-skill-icons.vercel.app/api/icons?i=maven&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=gradle&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=jenkins&theme=light
-https://go-skill-icons.vercel.app/api/icons?i=docker&theme=light
-
-
-  */
