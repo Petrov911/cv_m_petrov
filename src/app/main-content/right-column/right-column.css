@@ -8,9 +8,9 @@
   padding-right: 10px;
 }
 
-.skills-grid {
+.skills-grid{
   display: grid;
-  grid-template-columns: repeat(3, minmax(80px, 150px));
+  grid-template-columns: repeat(5, minmax(80px, 150px));
   row-gap: 5px;
   column-gap: 40px;
 }
@@ -34,6 +34,16 @@
 .group-title {
   color: #7ba1c9;
   border-bottom: double 5px #fff;
-  width: 90%;
+  width: 100%;
   padding-bottom: 2px;
+}
+
+
+.sports{
+  display: fit-content;
+  grid-template-columns: repeat(1, minmax(10px, 90px));
+}
+
+.sport-items{
+  padding-right: 20px;
 }

@@ -1,18 +1,8 @@
 <div class="right-column">
-  <!-- <div class="skills-grid">
-    @for (skill of skills; track skill.name) {
-  <div>
-    {{ skill.name }}
-    <img [src]="skill.icon" [alt]="skill.name"/>
-  </div>
-}
-  </div> -->
-
-  <section class="skills-section">
+  <div class="skills-section">
     <h3 class="header-item component center shadow">SKILLS & TOOLS</h3>
-
     @for (group of skills; track group.title) {
-    <h3 class="group-title">{{ group.title }}</h3>
+    <h3 class="group-title center">{{ group.title }}</h3>
     <div class="skills-grid">
       @for (skill of group.items; track skill.name) {
       <div class="skill-card">
@@ -24,7 +14,7 @@
       }
     </div>
     }
-  </section>
+  </div>
 
   <div class="certificates">
     <h3 class="header-item component center shadow">CERTIFICATES</h3>
@@ -61,9 +51,8 @@
 
   <div class="sports">
     <h3 class="header-item component center shadow">SPORTS</h3>
-    <p>Running</p>
-    <p>Volleyball</p>
-    <p>Boxing</p>
-    <p>Swimming</p>
+     @for (group of sports; track sports) {
+    <span class="center sport-items">{{ group.title }}</span>
+    }
   </div>
 </div>

@@ -148,4 +148,19 @@ export class RightColumn {
       ],
     },
   ];
+
+  sports = [
+    {
+      title: "Running"
+    },
+     {
+      title: "Volleyball"
+    },
+     {
+      title: "Boxing"
+    },
+     {
+      title: "Swimming"
+    }
+  ]
 }
